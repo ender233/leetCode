@@ -9,6 +9,10 @@
 #include <prettyprint.hpp>
 using namespace std;
 
+/*
+ * char -> string   string str({c});
+ */
+
 class Solution
 {
 private:
