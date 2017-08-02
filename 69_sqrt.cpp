@@ -21,7 +21,7 @@ double mySqrt2(int x) {
     return in;
 }
 
-double mySqrt(int x)
+constexpr double mySqrt(int x)
 {
     if(x==0 || x==1) return x;
     double delta = 0.0001;
@@ -64,5 +64,7 @@ TEST_CASE("", "")
     for(int i=0; i<100000; ++i) {
         double tmp = mySqrt(i);
     }
+
+    //int testArray[int(mySqrt2(100))];
     t.printTimeDiff("mySqrt");
 }
