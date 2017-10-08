@@ -83,7 +83,6 @@ public:
     }
 
     double findMedian() {
-        //std::cout<<"top1:"<<nums1_.top()<<" top2:"<<nums2_.top()<<std::endl;
         if(nums1_.size() == nums2_.size()) {
             return (double)(nums1_.top()+nums2_.top())/2;
         }
