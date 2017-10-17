@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xps/Project/leetCode/87_scramble_string/main.cpp
+iostream
+-
+string
+-
+cassert
+-
+map
+-
+algorithm
+-
+catch.hpp
+-
+

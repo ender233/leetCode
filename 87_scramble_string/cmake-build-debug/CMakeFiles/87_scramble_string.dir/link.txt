@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/87_scramble_string.dir/main.cpp.o  -o 87_scramble_string 
