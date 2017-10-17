@@ -33,3 +33,6 @@
 
 # edaw file
 *.eddx
+
+# cmake
+/cmake-build-debug/
