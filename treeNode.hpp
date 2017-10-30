@@ -11,10 +11,6 @@ struct TreeNode
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-
-/*
- * help function
- */
 void generateTree(TreeNode *root, int curNum, const vector<int> &initVec)
 {
     int maxNum = initVec.size();
@@ -31,6 +27,19 @@ void generateTree(TreeNode *root, int curNum, const vector<int> &initVec)
     }
 }
 
+/*
+ * help function
+ * example:
+ *      1
+ *     / \
+ *    2   3
+ *   /   / \
+ *  4   5   6
+ *     /
+ *    7
+ * std::vector<int> vec1{1,2,3,4,0,5,6,0,0,0,0,7,0,0,0};
+ * TreeNode *t = loadTree(vec1);
+ */
 TreeNode *loadTree(const vector<int> &initVec)
 {
     if(initVec.empty()) return NULL;
