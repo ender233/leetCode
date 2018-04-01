@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/232_implement_queue_using_stacks.dir/main.cpp.o  -o 232_implement_queue_using_stacks 
